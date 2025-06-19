@@ -1,0 +1,83 @@
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: myFont,sans-serif;
+    color: #212e4b;
+}
+
+@font-face {
+  font-family: myFont;
+  src: url(fonts/Biggest\ Cat\ Ever.ttf );
+}
+@font-face {
+    font-family:myFont2 ;
+    src: url(fonts/KidzhoodArabicDEMO-Light.otf);
+}
+
+p,h2{
+    font-family:myFont2 ;
+    text-shadow: 0px 0px 2px black;
+    
+}
+#main-head{
+    
+    background: url(fotos/kolkata\ background.jpg); 
+    background-size: cover;
+    padding: 20px 10px 100px 10px ;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+    
+}
+.imgg{
+    border: 5px solid #506993  ;
+    width: 230px;
+    border-radius: 100%;
+}
+
+#title , #subtitle{
+
+    margin-top: 100px;
+    background:#d1b093;
+    padding: 5px 15px;
+}
+#subtitle{
+    margin-top:-5px ;
+}
+
+
+/*main body part*/
+#main-body{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.wrapper{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 100px;
+}
+/*id card*/
+#card{
+    margin: 0px auto;
+    border-bottom:20px solid #f1b093;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background: #506993;
+    color:#d1b093;
+    justify-content: space-between;
+    width: 400px;
+    padding: 0px 25px;
+    
+}
+.pfp{
+    border: 2px solid #d1b093;
+    width: 150px;
+    
+}
